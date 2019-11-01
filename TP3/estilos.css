@@ -1,0 +1,195 @@
+@charset "UTF-8";
+header{
+    text-align: center;
+    font-family: Impact;
+    color: #CCA722;
+    text-shadow:2px 2px 2px black;
+  
+}
+
+h1 {
+    font-size:330%;
+    padding-top:5%;
+    text-align: center; 
+    animation-name: animacion1;
+    animation-duration: 3s;  
+    animation-delay: 0s;
+}
+
+h1 {
+transition-duration: 3s;
+}
+
+h1:hover{
+    transform: scale(1.2, 1.2);
+}
+
+
+nav ul li {
+    display: flex;
+    display: inline-flex;
+    text-align: center;
+    padding-top:10px;
+    padding-right:10px;
+    padding-left:10px;
+
+}
+
+nav ul li a {
+    font-family: impact;
+    color: #cca722;
+    text-decoration: none;
+    font-size: 200%;
+
+}
+
+nav ul li a:hover {
+  color: white;
+  text-shadow:2px 2px 2px black;
+}
+
+
+
+body{
+    margin:0;padding: 0;background-color: #FAC9AD;}
+
+.parte1 {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 8%;
+}
+
+.cuadrowes {
+    width: 25%;
+}
+
+.cuadrowes:hover {
+    transform: rotate(10deg);
+}
+
+.cuadrobio {
+    width: 40%;
+}
+
+.cuadrobio:hover {
+    transform: rotate(-10deg);
+}
+
+.parte2 {
+    display: flex;
+    padding: 8%; 
+    justify-content: space-between;
+   
+}
+
+
+.cuadrochica {
+    width: 50%;
+     
+}
+
+.cuadrochica:hover {
+    transform: rotate(-10deg);
+}
+
+.cuadrotren {
+    width: 50%;
+
+}
+
+.cuadrotren:hover {
+    transform: rotate(-10deg);
+}
+
+.cuadrofilmo {
+    width: 70%;
+}
+
+.cuadrofilmo:hover {
+    transform: rotate(10deg);
+}
+
+.parte4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10%; 
+}
+.cuadropremios {
+    width: 70%;
+    padding: 10%;
+    padding-top: 0%;
+}
+
+.cuadropremios:hover {
+    transform: rotate(5deg);
+}
+footer {
+    font-family: Impact;
+    padding:30px;
+    color: white;
+}
+
+
+
+#footer1 {
+    text-align: center;
+    background-color: #A7AA3E;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 959px){
+    nav ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.cuadrowes {
+    width: 80%;
+    padding: 10%; 
+}
+
+.cuadrobio {
+    width: 80%;
+    padding: 10%; 
+}
+
+.parte2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.cuadrofilmo {
+    width: 80%;
+    padding: 10%;
+}
+
+.cuadrochica {
+    display:none;
+     
+}
+
+
+.cuadrotren {
+    display: none;
+}
+
+.cuadropremios {
+    width: 80%;
+    padding: 10%;
+}
+
+}
+
+
+
+
+
