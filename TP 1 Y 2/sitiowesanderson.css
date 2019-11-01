@@ -1,0 +1,147 @@
+@charset "UTF-8";
+header{
+    text-align: center;
+font-family: Impact;
+color: #CCA722;}
+
+nav ul li {display: inline;}
+nav ul li {position: relative;
+padding-top:10px;
+padding-right:10px;
+padding-left:10px;
+}
+
+nav ul li a {
+    font-family: impact;
+    color: #cca722;
+    text-decoration: none;
+}
+
+@keyframes animacion1{ 
+    0% {transform: scale(1); opacity:0;}
+    100% {transform:scale(1.2); opacity:1;}
+}
+
+body{
+    margin:0;padding: 0;background-color: #FAC9AD;}
+
+p {
+    font-family: brawler;
+    color: black;
+    text-align: center;
+    padding:60px;
+}
+
+footer {
+    font-family: brawler;
+    padding:30px;
+}
+
+
+.wes {
+    animation-name: animacion1;
+    animation-duration: 3s;  
+    animation-delay: 2s;
+    opacity:0;
+    animation-fill-mode: forwards;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    ;
+    font-size: 250%;
+    text-align: center;
+    color: #CCA722;
+}
+
+.wes:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.wes {
+transition-duration: 3s;
+}
+
+.quote {
+    animation-name: animacion1;
+    animation-duration: 3s;  
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+    color: #000000;
+    font-family: brawler;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 420%;
+}
+.quote {
+transition-duration: 3s;
+}
+
+.quote:hover{
+    transform: scale(1.2, 1.2);
+}
+
+
+#footer1 {
+    text-align: center;
+    background-color: #A7AA3E;
+}
+.caja {
+    height: 100%;
+    margin-top: 160px;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-bottom: 160px;
+}
+.anchoImg {
+    width: 100%;
+}
+
+p { 
+font-size: large;
+font-family: brawler; 
+}
+
+.fondomenu {
+    position: relative;
+  
+}
+
+.botones {
+    width: 20px;
+
+}
+
+.bioboton {
+    width: 20px;
+    position: absolute;
+    top:90%;
+    left:40%;
+
+}
+
+.estiloboton {
+    width: 20px;
+    position: absolute;
+    top:120%;
+    left:10%;
+
+}
+
+.filmoboton {
+    width: 20px;
+    position: absolute;
+    top:140%;
+    left:40%;
+
+}
+
+.reseñasboton {
+    width: 20px;
+    position: absolute;
+    top:120%;
+    right:30%;
+
+}
+
+
+
+
